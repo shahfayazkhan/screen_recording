@@ -7,9 +7,9 @@ import org.opencv.core.Core;
 public class Screen_Recorder_Example {
 
     public static void main(String[] args) {
-        // Load OpenCV native library
+        // Load OpenCV native library after testing
         System.load("C:/opencv/build/java/x64/opencv_java490.dll");
-        // Create a frame grabber
+        // Create a frame grabber another testing
         OpenCVFrameGrabber grabber = new OpenCVFrameGrabber(0); // 0 for default camera
         try {
             grabber.start(); // Start the camera
